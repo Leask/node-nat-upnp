@@ -16,9 +16,9 @@
     "test": "jscs lib/*.js test/*.js && mocha --timeout 60000 --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "xml2js": "~0.1.14",
+    "xml2js": "~0.6.2",
     "request": "^2.79.0",
     "async": "^2.1.5",
-    "ip": "^1.1.4"
+    "ip": "^2.0.1"
   }
 }
